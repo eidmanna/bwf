@@ -1,0 +1,8 @@
+{
+  "id": "yws",
+  "paths": ".",
+  "inputs": "unicon/yws/main/main.js",
+  "mode": "RAW",
+  "level": "VERBOSE"
+
+}

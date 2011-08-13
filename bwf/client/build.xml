@@ -1,0 +1,16 @@
+<project name="closure" default="plovr" basedir=".">
+
+<target name="plovr">
+	<java jar="plovr-c047fb78efb8.jar" fork="true">
+         <arg value="serve"/>
+         <arg value="config.jsc"/>
+
+         <classpath>
+           <pathelement location="plovr-c047fb78efb8.jar"/>
+           
+         </classpath>
+       </java>
+	
+</target>
+
+</project>
